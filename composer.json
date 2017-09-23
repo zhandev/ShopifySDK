@@ -1,0 +1,34 @@
+{
+  "name": "zhandev312/shopify_api",
+  "description": "A PHP wrapper for using Shopify API",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Zhanybek Seitaliev",
+      "email": "zhandev312@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php" : ">=5.5.0",
+    "guzzlehttp/guzzle": "~6.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit" : "4.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Zhandev312\\ShopifyApi\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Zhandev312\\ShopifyApi\\Test\\": "tests"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
+}
