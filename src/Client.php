@@ -59,4 +59,10 @@ class Client
         return new static($domain, $accessToken);
     }
 
+    public function getToken() {
+
+    	return $this->token;
+
+    }
+
 }
